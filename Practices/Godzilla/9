@@ -1,0 +1,20 @@
+import random
+
+x=int(raw_input())
+casos_analizables=[]
+contador=0
+for line in range(x*4):
+	contador=contador+1
+	line=raw_input()
+	if line =="" or contador==2 or (contador-2)%4==0:
+		continue
+	else:
+		numeros=line.split(" ")
+		sublista_numeros=[]
+		for numero in numeros:
+			sublista_numeros.append(int(numero))
+		casos_analizables.append(sublista_numeros)
+	if contador%4==0:
+		print ("hola")
+		print (casos_analizables)
+		casos_analizables=[]
