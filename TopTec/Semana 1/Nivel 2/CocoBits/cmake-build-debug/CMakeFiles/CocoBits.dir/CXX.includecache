@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/rober/Desktop/Top Tec/Semana 1/Nivel 2/CocoBits/main.cpp
+iostream
+-
+cmath
+-
+algorithm
+-
+vector
+-
+
